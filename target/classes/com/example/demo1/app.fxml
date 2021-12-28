@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ebc3e4#ebc3e4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HomeController">
+    <children>
+        <AnchorPane layoutY="87.0" prefHeight="313.0" prefWidth="700.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fx:id="imageButtonSun" fitHeight="150.0" fitWidth="200.0" layoutX="275.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/2995001_cloud_cloudy_sun_weather_summer_icon.png" />
+               </image>
+            </ImageView>
+         </children>
+        </AnchorPane>
+        <Label layoutX="249.0" layoutY="25.0" prefHeight="23.0" prefWidth="202.0" style="-fx-background-color: #c2a3bd#c2a3bd;" text="Сервис аренды автомобилей">
+            <font>
+                <Font name="Andale Mono" size="13.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ebc3e4#ebc3e4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <children>
+        <AnchorPane layoutY="87.0" prefHeight="313.0" prefWidth="700.0" style="-fx-background-color: #ffffff;">
+            <children>
+                <Button fx:id="signInButton" layoutX="323.0" layoutY="245.0" mnemonicParsing="false" text="Войти" />
+                <TextField fx:id="login_field" layoutX="279.0" layoutY="115.0" promptText="Логин" />
+                <PasswordField fx:id="password_field" layoutX="274.0" layoutY="177.0" promptText="Пароль" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="249.0" layoutY="25.0" prefHeight="23.0" prefWidth="202.0" style="-fx-background-color: #c2a3bd#c2a3bd;" text="Сервис аренды автомобилей">
+            <font>
+                <Font name="Andale Mono" size="13.0" />
+            </font>
+        </Label>
+        <Button fx:id="signUpButton" layoutX="579.0" layoutY="21.0" mnemonicParsing="false" text="Регистрация" />
+    </children>
+</AnchorPane>
